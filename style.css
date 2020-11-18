@@ -1,0 +1,35 @@
+body {
+    background-color: #086fa1;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+#playBtnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+#UsrPlyrContainer {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#scoreBoardOne, #scoreBoardTwo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#compPlyrContainer {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}

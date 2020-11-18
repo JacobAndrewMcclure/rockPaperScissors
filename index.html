@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link for CSS file-->
+    <link rel="stylesheet" href="style.css">
+    <title>R~P~S</title>
+</head>
+<body>
+    <div id="wrapper">
+        <!--headline-->
+        <h1 id="systemResponse">Let's play Rock, Paper, Scissors!</h1>
+        <!--Play button-->
+        <div id="playBtnContainer">
+            <button type="button" id="playBtn"
+                onclick="startGame()">Let's Play!</button>
+        </div>
+        <!--container for player one-->
+        <div id="UsrPlyrContainer">
+            <button type="button" id="userRock" onclick="playRock()">Rock</button>
+            <button type="button" id="userPaper" onclick="playPaper()">Paper</button>
+            <button type="button" id="userScissors" onclick="playScissors()">Scissors</button>
+        </div>
+        <!--Scoreboard-->
+        <div id="scoreBoardOne">
+            <p id="plyrScore">Player: --</p>
+        </div>
+        <div id="scoreBoardTwo">
+            <p id="sysScore">Computer: --</p>
+        </div>
+        <!--container for player two / computer-->
+        <div id="compPlyrContainer">
+            <p id="sysRock">Rock</p>
+            <p id="sysPaper">Paper</p>
+            <p id="sysScissors">Scissors</p>
+        </div>
+    </div>
+    <!--Link to JS file-->
+    <script src="app.js"></script>
+</body>
+</html>
